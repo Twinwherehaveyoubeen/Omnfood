@@ -96,6 +96,9 @@ background-color: rgb(230, 150, 0);
 }
 section{
     background-color: #fff;
+  background-position: center;
+    background-size: cover;
+    margin-top: 300px;
 }
 .get{
     font-weight: 300;
@@ -114,7 +117,35 @@ section{
 .ptext{
     display: flex;
     justify-content: center;
+    font-weight: 300;
 }
 .no{
     margin-left: 362px;
+    font-weight: 300;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+.icon-big{
+    font-size: 350%;
+    display: flex;
+    flex-direction: row;
+    color: #e67e22;
+    margin-bottom: 10px;
+    --ionicon-stroke-width:20px;
+
+}
+.container h3{
+    font-size: 15;
+}
+.container p {
+    font-size: 15;
+    width: 200px;
+  
+}
+.pad{
+    padding: 30px;
 }
