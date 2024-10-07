@@ -101,6 +101,7 @@ section{
     margin-top: 300px;
 }
 .get{
+   
     font-weight: 300;
     display: flex;
     justify-content: center;
@@ -148,4 +149,26 @@ section{
 }
 .pad{
     padding: 30px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    margin: 0 auto;
+}
+.grid-item{
+    overflow: hidden;
+    background-color: #000;
+}
+.grid-item img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    opacity: 0.7;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+.grid-item img:hover{
+    opacity: 1;
+    transform: scale(1.00);
 }
