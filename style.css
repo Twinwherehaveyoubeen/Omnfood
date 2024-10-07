@@ -1,0 +1,120 @@
+html{
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+.firstpage{
+min-height: 500px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: linear-gradient( rgba( 0, 0, 0, 0.7), rgba( 0, 0, 0, 0.7)), url(hero.jpg);
+}
+.omnifood P{
+  margin-top: 30PX;  
+}
+.omnifood img{
+    height: 80px;
+    width: 80px;
+   margin-left: 300px; 
+
+}
+.btn{
+    color: #fff;
+    padding: 10px 30px;
+  
+}
+.btn:link{
+color: green;
+background-color: transparent;
+text-decoration: none;
+}
+.btn:hover{
+
+background-color: transparent;
+text-decoration: underline;
+text-decoration-color: orange;
+}
+
+.good{
+ 
+    margin-left: 260px;
+    font-size: 38px;
+    padding: 0px;
+    color: white;
+  
+    
+} 
+
+.hello{
+    
+    margin-left: 260px;
+    font-size: 38px;
+    padding: 0px;
+    color:white;
+  
+}
+.goodbye{
+    margin-top: 200px;
+}
+.navagation{
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.full{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 150px;
+    color: #fff;
+    background-color: #e67e22;
+    transition: back;
+}
+.full:hover{
+background-color: rgb(230, 150, 0);
+}
+.ghost{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 150px;
+    color: #fff;
+    background-color: transparent;
+    transition: back;
+    border: 1px solid #e67e22;
+}
+.ghost:hover{
+    background-color:#e67e22;
+    }
+.hs{
+    margin-left: 260px;
+}
+section{
+    background-color: #fff;
+}
+.get{
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+}
+.underline:after{
+    display: block;
+    height: 2px;
+    width: 200px;
+    background-color: #e67e22;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+}
+.ptext{
+    display: flex;
+    justify-content: center;
+}
+.no{
+    margin-left: 362px;
+}
