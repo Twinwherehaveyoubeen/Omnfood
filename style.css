@@ -285,3 +285,82 @@ margin-top: -345px;
     float: right;
     margin-right: 520px;
 }
+/* section 4 */
+
+
+.location{
+    height: fit-content;
+}
+.lisbon{
+    width: 300px;
+    padding: 30px;
+}
+.sanfr{
+    width: 300px;
+    padding: 30px;
+}
+.berlin{
+    width: 300px;
+    padding: 30px;
+}
+.london{
+    width: 300px;
+    padding: 30px;
+}
+.mon{
+    display: flex;
+    justify-content: center;
+}
+.names{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 300px;
+   
+}
+#lisbon1{
+ margin-left: 290px;
+    font-weight: 300;
+    font-size: 20px;
+}
+#sanfr1{
+   margin-left: 590px;
+    font-weight: 300;
+    font-size: 20px;
+   margin-top: -22px;
+}
+#berlin1{
+float: right;
+margin-right: 450px;
+font-size: 20px;
+margin-top: -22px;
+
+}
+#london1{
+   float: right;
+   margin-right: 230px;
+   font-size: 20px;
+   margin-top: -22px;
+}
+.logos1{
+    color: #e67e22;
+}
+.logop{
+    font-size: 20px;
+}
+.twitter{
+    margin-left: 290px;
+    margin-top: 20px;
+}
+.twitter1{
+    margin-left: 590px;
+    margin-top: 20px;
+    margin-top: -70px;
+}
+.twitter3{
+    margin-left: 890px;
+    margin-top: -70px;
+}
+.twitter4{
+    margin-left: 1190;
+    margin-top: -70px;
+}
