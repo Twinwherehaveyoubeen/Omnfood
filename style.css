@@ -364,3 +364,109 @@ margin-top: -22px;
     margin-left: 1190;
     margin-top: -70px;
 }
+/* on the quote section  */
+.quotes{
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient( rgba( 0, 0, 0, 0.7), rgba( 0, 0, 0, 0.7)), url(back-customers.jpg);
+    height: 600px;
+}
+.our{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size:40px;
+    font-weight: 300;
+}
+.blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+    color: #fff;
+    width: 480px;
+    margin-left: 200px;
+}
+.blockquote:before{
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+.blockquote1{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+    color: #fff;
+    width: 480px;
+    margin-left: 620px;
+    margin-top: -220px;
+}
+.blockquote1:before{
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+.blockquote2{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+    color: #fff;
+    width: 480px;
+    margin-left: 1080px;
+    margin-top: -220;
+}
+.blockquote2:before{
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+.pictures{
+    border-radius: 100%;
+    width: 60px;
+    margin-left: 220px;
+    margin-top: 30px;
+}
+.pictures1{
+    border-radius: 100%;
+    width: 60px;
+    margin-left: 350px;
+  
+}
+.pictures2{
+    border-radius: 100%;
+    width: 60px;
+   margin-left: 400px;
+}
+
+.customers p{
+    color: #fff;
+}
+.alberto{
+    margin-left: 300px;
+    margin-top: -45px;
+}
+.joana{
+    margin-left: 700px;
+    margin-top: -30px;
+}
+.milton{
+    margin-left: 1170;
+    margin-top: -20px;
+}
