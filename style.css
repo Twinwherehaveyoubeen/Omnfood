@@ -566,22 +566,24 @@ input[type=text],input[type=email],select,textarea{
     
 }
 .footer{
-    margin-top: 0px;
+    margin-top: 60px;
     background-color: rgb(68, 68, 68);
     height: 100px;
 
 }
 .ftcolor{
     margin-left: 20px;
+    margin-top: 30px;
 }
 .ftcolor a{
     color: rgb(144, 143, 143);
     padding: 10px;
+    margin-top: 30;
 }
 .social a{
     color: grey;
     font-size: 30px;
     padding: 10px;
     float: right;
-    margin-top: -20;
+    margin-top: -30;
 }
